@@ -1,0 +1,56 @@
+operator->operator is use for perform the operation(logic).
+
+operators are calledd sign and operands called variable.
+
+these are of following types:
+1.Arithmetic operator
+2.Comparision operation
+3.Conditional operator
+4.Logical operator
+5.Bitwise operator
+...............
+1.Arithmetic operator:this operator is use for perform the Arithmetic operation,
++
+-
+*
+/
+%
+
+Arithmetic are of two types:
+1.uniary operator
+2.binary operator
+
+1.uniary operator->According to this operator,only one operand and operators (++,--).
+1.pre operator->
+According to this operator,first increase or decrease the value and then assign.
+++operand ,--operand(and changes only 1).
+
+2.post operator->According th this operator,first the value is assign and then increase or decrease.
+operand--,operand++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

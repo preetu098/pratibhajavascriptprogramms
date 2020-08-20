@@ -1,0 +1,69 @@
+variable->variabale is a name of reserve area of memory,
+that is use for store(hold) the value.
+
+Note:
+
+var keyword,is use for declare the variable.
+
+var name="Samyak";
+document.write(name);
+
+Rules:
+1.variable namae always start from alphabet or _.
+
+    a=90;
+   _a=0;
+
+var name=90;
+
+Note:
+in a javascript,typeof() function is use for check the typeof
+variable.
+
+" "->string
+123->number
+3.4->float
+
+
+<input type="text"/>->123<string>
+pratibha
+5.4
+..........................
+html->
+
+name=""okok
+
+
+
+
+
+difference b/w let and var?
+
+
+let->is use for create variabale and operate according to
+ value.
+ 
+var->according to value and variable both.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

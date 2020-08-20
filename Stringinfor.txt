@@ -1,0 +1,50 @@
+String->String is a collection of character.
+
+'H A P P Y BIRTH DAY TO U'
+
+"H-A-P-P-Y-BIRTH-DAY-TO-U"
+purchase
+.........
+character->whole keys of a keyboard are characters.
+these are of 3 types:
+1.alphabet->a to z,A to Z
+2.number->0 to 9
+3.symbol->@ to ~ etc...
+
+email->email id is a best example of string.
+
+preetu098@gmail.com
+
+String concept is apply in two ways:
+1.literal->literal means value write inside double quotes.
+
+var name='Radhika';
+this is example of literal.
+var s1="Ram";
+var s2="Ram";
+
+2.Object->Object is a world entity,
+[allocate dynamic memory]
+in javascript new keyword is us for allocate dynamic memory.
+var s1=new String("Ram");
+var s2=new String("Ram");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

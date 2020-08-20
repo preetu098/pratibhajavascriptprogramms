@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+<script>
+class Sweet1
+{
+   products()
+   {
+   document.write("Sweets Are so interactive<br>");
+   }
+}
+class Ram extends Sweet1
+{
+  products()
+   {
+   super.products();
+   document.write("Ram Sweets Are so also interactive<br>");
+   }
+}
+var obj=new Ram();
+obj.products();
+</script>
+</html>

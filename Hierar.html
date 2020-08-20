@@ -1,0 +1,43 @@
+<html>
+<script>
+   class Samsung
+   {
+     info()
+	 {
+	   document.write("Samsung is best company All products are also best<br>");
+	 }
+   }
+   class AC extends Samsung
+   {
+   ac()
+   {
+    document.write("AC provide best cooling is price 34000");
+   }
+   }
+   class TV extends Samsung
+   {
+   tv()
+   {
+    document.write("TV is safe for Eyes price is 23000<br>");
+   }
+   }
+ var a=new AC();
+ var t=new TV();
+ 
+ var user="Mobile";//user enter value TV
+ if(user=="TV")
+ {
+    t.info();
+	t.tv();
+ }
+ else if(user=="AC")
+ {
+   a.info();
+   a.ac();
+ }
+ else
+ {
+   document.write("This is not Available="+user);
+ }
+</script>
+</html>

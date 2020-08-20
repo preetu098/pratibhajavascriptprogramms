@@ -1,0 +1,70 @@
+javascript:
+javascript is apply as a two ways:
+
+1.internal javascript
+
+
+2.external javascript
+
+
+Ex:
+
+Guide  10,12  [all courses]internal process
+[separate][external process]
+
+
+compiler->is use for convert the code form source code to byte code.
+
+byte code (machine code)
+
+interpreter->byte code to machine code(virtual machine)
+
+
+..............................
+
+internal javascript:
+
+<script>
+  block of code;
+</script>
+
+
+
+external js->external javascript is separater file,this file is save by the extension of .js  
+and this file is call in html page.
+
+<script src="external_filename.js">
+
+</script>
+here src is stanads for source and is use for call js file.
+
+
+.....................
+
+in javascript,we can write message by multiple ways:
+
+document.write(message);
+
+here document is an object or write is method ,so this line is use for print the message.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

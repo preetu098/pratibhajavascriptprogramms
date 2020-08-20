@@ -1,0 +1,30 @@
+<html>
+<script>
+class Keypad
+{
+  infok()
+  {
+  document.write("First Phone Keypad<br>");
+  }
+}
+class Smart extends Keypad
+{
+infos()
+  {
+  document.write("Second Phone Smart with Keypad<br>");
+  }
+}
+class Touch extends Smart
+{
+infot()
+  {
+  document.write("Touch Phone Include all Smart and keypad<br>");
+  }
+}
+
+var t=new Touch();
+t.infok();
+t.infos();
+t.infot();
+</script>
+</html>

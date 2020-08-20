@@ -1,0 +1,1 @@
+document.write("external javascript file"+(4+5));

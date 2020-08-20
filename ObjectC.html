@@ -1,0 +1,35 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+var obj=new Date();
+document.write(obj+"<br>");
+document.write(obj.toLocaleString()+"<br>");
+document.write("YEar:"+obj.getFullYear()+"<br>");
+document.write("Month:"+obj.getMonth()+"<br>");//0
+document.write("Day:"+obj.getDay()+"<br>");//0-sunday
+document.write("Date:"+obj.getDate()+"<br>");
+document.write("Hours:"+obj.getHours()+"<br>");
+document.write("Minutes:"+obj.getMinutes()+"<br>");
+document.write("Second:"+obj.getSeconds()+"<br>");
+document.write("MilliSEcond:"+obj.getMilliseconds()+"<br>");
+
+document.write("Time:"+obj.getTime()+"<br>");
+
+document.write("Time Zone:"+obj.getTimezoneOffset()+"<br>");
+var s=obj.getTimezoneOffset()*3600000;
+
+var s1=obj.getTime()+s;
+
+document.write(s1+"<br>");
+
+var dd=new Date(s1);
+document.write(dd.toLocaleString());
+
+</script>
+</body>
+</html>
+
+
+

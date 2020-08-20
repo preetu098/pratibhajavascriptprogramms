@@ -1,0 +1,80 @@
+oop->object oriented programming.
+books oriented
+money oriented
+
+object ->object is a real world entity.
+Ex:
+
+Laptop is a real world entity
+object have properties
+
+state->variable(fixed)
+behaviour->function/methods(Runt time based)
+
+Laptop->
+state-->name,color[dell,black]
+behaviour->audio,vedio,services(Run time based)24*7
+[24 hours 1 hours audio,vedio]
+services[8 hours]
+
+
+...............................
+Bank application[Real world entity]
+
+state->name,branch,location,starting date
+
+behaviour->receiption,accountant,  etc...
+........................
+Bank->drawing (structure ) class.
+...................................
+
+class is a blue print of a real world entity.
+class is use for define the properties of real world entity.
+
+
+Note:
+by the help of single class we can create lots of object(real world entity)
+
+all real world entity behaves different.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

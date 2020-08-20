@@ -1,0 +1,16 @@
+<html>
+<head>
+</head>
+<script>
+var today=new Date();
+document.write(today+"<br>");
+document.write(today.getHours()+":"+today.getMinutes()+":"+today.getSeconds()+"<br>");
+
+
+document.write(today.getUTCHours()+":"+today.getUTCMinutes()+":"+today.getUTCSeconds()+"<br>");
+
+var utc=today.getTimezoneOffset();
+document.write("Difference b/w utc time:"+utc+"<br>")
+
+</script>
+</html>

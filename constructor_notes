@@ -1,0 +1,48 @@
+functions:
+function is like a separate task,inside a class we can create lots of separate task,by the help of function name.
+and these types of functions are call by object.
+
+class <class-name>
+{
+   function-name()
+   {
+     block of code;
+   }
+}
+
+var object=new <class-name>(); 
+object.function-name();
+....................................
+
+constructor is also a funtion,but special type of function,this function is automatically call when we create the object.
+
+constructor is create by constructor keyword.
+
+
+god()
+{
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

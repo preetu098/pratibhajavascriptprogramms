@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+function user()
+{
+var age=document.getElementById('data').value;
+var a=parseInt(age);
+if(a>=18)
+{
+  alert("Valid for Voting");
+}
+else
+{
+alert("Invalid for Voting");
+}
+}
+</script>
+<input type="text" id="data"/>
+<input type="submit" value="Go" onclick="user()"/>
+</body>
+</html>

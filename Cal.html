@@ -1,0 +1,47 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+  function add()
+  {
+  var a1=document.getElementById('val1').value;
+  var a2=document.getElementById('val2').value;
+  var c=eval(a1)+eval(a2);
+  alert(c);
+  }
+  function sub()
+  {
+  var a1=document.getElementById('val1').value;
+  var a2=document.getElementById('val2').value;
+  var c=eval(a1)-eval(a2);
+  alert(c);
+  }
+  function mul()
+  {
+  var a1=document.getElementById('val1').value;
+  var a2=document.getElementById('val2').value;
+  var c=eval(a1)*eval(a2);
+  alert(c);
+  }
+  function div()
+  {
+  var a1=document.getElementById('val1').value;
+  var a2=document.getElementById('val2').value;
+  var c=eval(a1)/eval(a2);
+  alert(c);
+  }
+</script>
+  <center>
+  <h1>Calculator</h1>
+    <input type="text" id="val1" placeholder="enter first number"/><br>
+	<input type="text" id="val2" placeholder="enter Second number"/><br>
+	<input type="submit" value="+" onclick="add()"/>
+	<input type="submit" value="-" onclick="sub()"/>
+	<input type="submit" value="*" onclick="mul()"/>
+	<input type="submit" value="/" onclick="div()"/>
+
+  </center>
+ 
+</body>
+</html>

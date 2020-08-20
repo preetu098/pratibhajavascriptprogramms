@@ -1,0 +1,90 @@
+method overriding->
+method overriding means method name and parameter both are same,
+these concept is apply by inheritance concept.
+
+class Base
+{
+  public:
+  void getInfo()
+  {
+    cout<<"Base class method\n";
+  }
+};
+class Derived :public Base
+{
+  public:
+  void getInfo()
+  {
+    cout<<"DErived class Method";
+  }
+};
+int main()
+{
+Derived d;
+d.getInfo();
+}
+.......................
+
+scope resolution operator->scope resolution operator is a special type of operator,this is use for call the method ,without using object and also call method by class.
+this operator is denote by ::
+
+
+
+
+
+static->static is a keyword in a programming,static is use for memory managaement.
+static type of property allocate one time memory in a life.
+
+
+
+in c++ programming lots of predefine classes are available,
+
+
+std
+ios etc...
+
+std is class is stands for standard and inside this lots of properties are available.
+
+cin
+cout etc....
+
+std::cout<<"Hello World";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

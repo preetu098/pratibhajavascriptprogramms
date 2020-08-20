@@ -1,0 +1,24 @@
+<html>
+<head>
+</head>
+
+<script>
+class Bank
+{
+  interest()
+  {
+    document.write("interest in .8 <br>");
+  }
+}
+class AXIS extends Bank
+{
+interest()
+  {
+  super.interest();
+    document.write("interest in .90 <br>");
+  }
+}
+var a=new AXIS();
+a.interest();
+</script>
+</html>
